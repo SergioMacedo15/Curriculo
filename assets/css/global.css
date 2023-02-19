@@ -1,31 +1,23 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
-.Container-Curriculo{
+
+.Container-Curriculo {
     background-color: #282a36;
+    height: 100%;
 }
+
 .Perfil-Container {
     display: flex;
     width: 80%;
     background-color: #343746;
     align-items: center;
-    margin: 0 auto 1em ;
+    margin: 0 auto 1em;
     padding: 20px;
     border-radius: 1em;
     color: #FFF;
 }
-@media screen and (min-width: 380px) {
-    .Perfil-Container {
-      display: grid;
-      justify-items: center;
-      align-items: center;
-    }
-  }
-  @media screen and (min-width: 600px) {
-    .Perfil-Container {
-      display: flex;
-    }
-  }
+
 .Perfil-Picture {
     height: 10em;
     border-radius: 100%;
@@ -38,21 +30,37 @@
 .Perfil-identify li {
     margin: .25em 0;
 }
-.Perfil-identify .Name{
+
+.Perfil-identify .Name {
     font-size: 30px;
 }
-.Perfil-Description {
+
+@media screen and (min-width: 380px) {
+    .Perfil-Container {
+        display: grid;
+        justify-items: center;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .Perfil-Container {
+        display: flex;
+    }
+}
+
+.Perfil-Text {
     display: block;
     width: 80%;
     background-color: #343746;
     align-items: center;
-    margin: 0 auto 1em ;
+    margin: 0 auto 1em;
     padding: 20px;
     border-radius: 1em;
     color: #FFF;
 }
 
-.Experience{
+.Experience {
     font-size: 16px;
     font-weight: 400;
 }
